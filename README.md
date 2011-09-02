@@ -16,7 +16,7 @@ A FuelPHP Package to generate named recursively nested menu's from a databse.
 	
 ### Install
 
-    Add `http://github.com/Phil-F` to your packages config and run `php oil install DbMenu`. Dont forget to include the package in your config.
+    Add `http://github.com/Phil-F` to your packages config and run `php oil install DbMenu`.
 
 ### Sample DB Structure
 
