@@ -29,7 +29,7 @@ A FuelPHP Package to generate named recursively nested menu's from a databse.
   	`link` text NOT NULL,
   	`parent` int(11) NOT NULL,
   	`position` int(11) NOT NULL,
-  	UNIQUE KEY `id` (`id`)
+  	PRIMARY KEY (`id`)
 	);
 
     --
