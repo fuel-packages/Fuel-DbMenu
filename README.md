@@ -23,13 +23,14 @@ A FuelPHP Package to generate named recursively nested menu's from a databse.
     The database table name can be changed in dbconfig.php
 
     CREATE TABLE IF NOT EXISTS `dbmenu` (
-    `id` int(11) NOT NULL,
-    `menu_name` varchar(20) NOT NULL,
-    `title` varchar(50) NOT NULL,
-    `link` text NOT NULL,
-    `parent` int(11) NOT NULL,
-    `position` int(11) NOT NULL
-    );
+  	`id` int(11) NOT NULL AUTO_INCREMENT,
+  	`menu_name` varchar(20) NOT NULL,
+  	`title` varchar(50) NOT NULL,
+  	`link` text NOT NULL,
+  	`parent` int(11) NOT NULL,
+  	`position` int(11) NOT NULL,
+  	UNIQUE KEY `id` (`id`)
+	);
 
     --
     -- Dumping data for table `dbmenu`
